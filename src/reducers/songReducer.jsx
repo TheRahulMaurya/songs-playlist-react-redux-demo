@@ -24,7 +24,7 @@ export const songListReducer = (song) =>{
     ]);
 }
 
-// as the dispacher bring old and new value of the action thats why there is two args
+// as the dispacher bring old and new value of the action thats why there are two args
 export const selectedSongReducer = (selectedSong = null, action) => {
 
 

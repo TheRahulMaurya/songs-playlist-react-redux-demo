@@ -36,5 +36,5 @@ const mapStateToProp = (state) => {
 }
 
 // the connect()() syntax is this because connect() function returns another function
-// added action i.e selectStore to connect because it provides action in the props so that we call 'this.prop.selectSong(song)'
+// added action i.e selectStore to connect because it provides action in the props so that we can call 'this.prop.selectSong(song)'
 export default connect(mapStateToProp, {selectSong})(SongList);
