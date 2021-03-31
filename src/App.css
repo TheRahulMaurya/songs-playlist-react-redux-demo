@@ -1,0 +1,15 @@
+.song-list-container{
+    width: 50vw;
+    position: absolute;
+}
+
+.song-detail-container{
+    width: 50vw;
+    position: absolute;
+    margin-left: 50vw;
+}
+
+.app{
+    display: flex;
+}
+

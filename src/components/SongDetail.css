@@ -1,0 +1,9 @@
+.song-details{
+    width: 50vw;
+    background: grey;
+    height:20rem;
+    margin-top: 0px;
+    padding-top: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
